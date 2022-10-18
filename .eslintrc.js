@@ -1,19 +1,13 @@
 module.exports = {
-  root: true,
-  env: {
-    browser: true,
-    es2021: true,
-    node: true,
-  },
-  extends: [
-    'plugin:vue/vue3-recommended',
-    'eslint:recommended',
-    '@vue/typescript/recommended',
-    'prettier',
-    'prettier/vue',
-  ],
-  rules: {
-    // override/add rules settings here, such as:
-    // 'vue/no-unused-vars': 'error'
-  },
+    root: true,
+    env: {
+        browser: true,
+        es2021: true,
+        node: true,
+    },
+    extends: ['plugin:vue/vue3-recommended', 'eslint:recommended', 'prettier'],
+    rules: {
+        // override/add rules settings here, such as:
+        // 'vue/no-unused-vars': 'error'
+    },
 }
